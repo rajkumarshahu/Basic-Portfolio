@@ -19,7 +19,7 @@ body{
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
-    margin-left: 180px;
+    margin-left: 165px;
 }
 
 .main-header{
@@ -28,7 +28,7 @@ body{
     border: 2px solid #cccccc;
 }
 .main-header-col1{
-    width: 40%;
+    width: 30%;
 }
 .main-nav {
     width: 60%;
@@ -55,34 +55,29 @@ body{
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-    color: orange;
-    border-bottom: 5px solid orange;
-}
-
-h1{
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    border-bottom: 5px solid white;
 }
 
 .content{
     width: 960px;
     background-color: white;
     margin: auto;
-
+    height: auto;
     padding: 20px;
-    margin: 20px 200px 20px 200px;
+}
+p{
+    display: inline-block;
 }
 
-
-img{
-    float: left;
-    margin-right: 20px;
+.left{
+    float: right;
 }
 
 
 .clearfix{
     overflow: auto;
-    line-height: 30px;
+
 }
 
 .clearfx{
@@ -92,6 +87,6 @@ img{
 footer{
     background-color: #666666;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
     color: white;
 }
