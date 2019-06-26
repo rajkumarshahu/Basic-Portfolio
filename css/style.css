@@ -5,11 +5,6 @@ body{
     background-image: url("../images/body-bg.png");
 }
 
-.main-header {
-    width: 100%;
-    padding:20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
 
 
 .main-header__brand {
@@ -19,13 +14,14 @@ body{
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
-    margin-left: 180px;
 }
 
 .main-header{
     display: flex;
     background-color: #ffffff;
-    border: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    /* border: 2px solid #cccccc; */
 }
 .main-header-col1{
     width: 40%;
@@ -33,7 +29,6 @@ body{
 .main-nav {
     width: 60%;
     text-align: right;
-    margin-right: 200px;
 }
 
 .main-nav__items {
@@ -70,7 +65,7 @@ h1{
     margin: auto;
 
     padding: 20px;
-    margin: 20px 200px 20px 200px;
+    margin: 20px auto 20px auto;
 }
 
 
