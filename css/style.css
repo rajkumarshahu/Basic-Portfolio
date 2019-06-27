@@ -74,6 +74,9 @@ h1 {
     margin: 20px auto 150px auto;
     border: 1px solid #dddddd;
 }
+p {
+    padding-bottom: 15px;
+    }
 
 .main-header-content {
     width: 960px;
@@ -90,6 +93,7 @@ h1 {
     overflow: auto;
     line-height: 30px;
     padding-top: 30px;
+    text-align: justify;
 }
 
 .clearfx{
@@ -156,9 +160,11 @@ input[type=text], select {
     left: 40%;
     transform: translate(-50%, -50%);
     background: #4aaaa5;
-    padding: 10px;
+    padding: 7px;
     margin: 20px;
     color:white;
+    text-transform: uppercase;
+    font-size: 15px;
   }
 
 
@@ -175,4 +181,8 @@ input[type=text], select {
       height: 290px;
       border: #cccccc solid 2px;
       margin: 10px;
+  }
+
+  .main-image-container a{
+      text-decoration: none;
   }
